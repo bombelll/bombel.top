@@ -6,7 +6,7 @@ import "./scss/partials/home.scss";
 const App = () => {
 
   const notify = () => {
-    toast('06.08.23', {
+    toast('08.08.23', {
       icon: '🤨',
     });
   }
