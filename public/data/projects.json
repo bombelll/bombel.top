@@ -1,0 +1,34 @@
+[
+    {
+        "image": "/images/projects/portfolio-project.png",
+        "title": "Portfolio",
+        "language": "JavaScript",
+        "description": "Personal website",
+        "websiteURL": "https://bombel.top",
+        "githubURL": "https://github.com/bombelll/bombel.top"
+    },
+    {
+        "image": "/images/projects/old-portfolio-project.png",
+        "title": "Old Portfolio",
+        "language": "HTML",
+        "description": "Personal website",
+        "websiteURL": "https://old-portfolio-eosin.vercel.app/",
+        "githubURL": "https://github.com/bombelll/old-portfolio"
+    },
+    {
+        "image": "/images/projects/form-project.png",
+        "title": "Form",
+        "language": "JavaScript",
+        "description": "Basic registration form with validations in case of incorrectly filled field",
+        "websiteURL": "https://register-form-beryl.vercel.app/",
+        "githubURL": "https://github.com/bombelll/register-form"
+    },
+    {
+        "image": "/images/projects/guess-the-number-project.png",
+        "title": "Guess The Number",
+        "language": "JavaScript",
+        "description": "Simple game, guess the number with alerts if the number is less or greater",
+        "websiteURL": "https://guess-the-number-gold.vercel.app",
+        "githubURL": "https://github.com/bombelll/guess-the-number"
+    }
+]

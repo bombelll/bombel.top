@@ -1,0 +1,32 @@
+[
+    {
+        "icon": "https://img.icons8.com/color/48/null/html-5--v1.png",
+        "language": "HTML",
+        "skill": "Good"
+    },
+    {
+        "icon": "https://img.icons8.com/color/48/null/css3.png",
+        "language": "CSS",
+        "skill": "Good"
+    },    
+    {
+        "icon": "https://img.icons8.com/color/48/null/sass.png",
+        "language": "Saas",
+        "skill": "Junior"
+    },    
+    {
+        "icon": "https://img.icons8.com/color/48/null/javascript--v1.png",
+        "language": "JavaScript",
+        "skill": "Junior"
+    },    
+    {
+        "icon": "https://img.icons8.com/color/48/null/react-native.png",
+        "language": "ReactJS",
+        "skill": "Beginner"
+    },    
+    {
+        "icon": "/images/about_subpage/cpp.png",
+        "language": "C++",
+        "skill": "Beginner"
+    }
+]

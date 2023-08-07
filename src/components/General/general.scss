@@ -1,0 +1,76 @@
+@import "../../scss/vars.scss";
+
+.general {
+    margin-top: 100px;
+    min-height: 81vh;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 40px;
+        max-width: $maxWidth;
+        margin: $margin;
+        padding: $padding;
+        text-align: center;
+
+        @media only screen and (min-width: $breakpoint-laptop) {
+            flex-direction: row;
+            text-align: start;
+        }
+    }
+}
+
+.general__content {
+
+    .general__title {
+        font-size: 2.2rem;
+
+        @media only screen and (min-width: $breakpoint-mobile) {
+            font-size: 3rem;
+        }
+
+        @media only screen and (min-width: $breakpoint-tablet) {
+            font-size: 4rem;
+        }
+
+        >span {
+            color: $primaryColor;
+        }
+    }
+
+    .general__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media only screen and (min-width: $breakpoint-mobile) {
+            font-size: 1.05rem;
+        }
+
+        @media only screen and (min-width: $breakpoint-tablet) {
+            font-size: 1.4rem;
+
+            &--big {
+                font-size: 4rem;
+            }
+        }
+
+        @media only screen and (min-width: $breakpoint-laptop) {
+            justify-content: start;
+        }
+    }
+
+    .general__buttons {
+        margin-top: 30px;
+    }
+}
+
+.general__img {
+    max-width: 300px;
+
+    @media only screen and (min-width: $breakpoint-mobile) {
+        max-width: 500px;
+    }
+}

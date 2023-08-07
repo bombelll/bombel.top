@@ -1,0 +1,80 @@
+@import "../../scss/vars.scss";
+
+.about {
+    clip-path: none;
+    background-color: #1d4c7c;
+    color: #fff;
+    padding-bottom: 5%;
+
+    @media only screen and (min-width: $breakpoint-laptop) {
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    }
+
+    @media only screen and (min-width: 5000px) {
+        clip-path: none;
+        padding-bottom: 2%;
+    }
+
+    &__wrapper {
+        max-width: $maxWidth;
+        margin: $margin;
+        padding: $padding;
+
+        .about__buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+
+            @media only screen and (min-width: $breakpoint-laptop) {
+                justify-content: start;
+            }
+
+            > a:hover {
+                color: #1d4c7c;;
+            }
+        }
+    }
+}
+.about__title {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.about__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 30px;
+    text-align: center;
+    flex-direction: column;
+
+    @media only screen and (min-width: $breakpoint-laptop){
+        text-align: left;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about__image {
+        max-width: 250px;
+        width: 100%;
+
+        >img {
+            animation: avatar 3s infinite;
+        }
+    }
+
+    .about__text {
+        max-width: 75%;
+        width: 100%;
+    }
+}
+
+@keyframes avatar {
+    50% {
+        transform: translateY(-10px) rotate(2.5deg);
+    }
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}

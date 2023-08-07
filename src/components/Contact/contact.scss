@@ -1,0 +1,73 @@
+@import "../../scss/vars.scss";
+
+.contact {
+    margin-top: 100px;
+    clip-path: none;
+    background-color: #78bec6;
+    color: #fff;
+    padding: 4rem 0 5rem 0;
+
+    @media only screen and (min-width: $breakpoint-laptop) {
+        clip-path:polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+        padding: 15rem 0 5rem 0;
+        z-index: -1;
+    }
+
+    @media only screen and (min-width: 5000px) {
+        clip-path: none;
+        padding: 10rem 0 5rem 0;
+    }
+
+    &__wrapper {
+        max-width: $maxWidth;
+        margin: $margin;
+        padding: $padding;
+
+        .contact__title {
+            text-align: center;
+
+            >h2 {
+                @media only screen and (min-width: $breakpoint-mobile) {
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+}
+
+.contact__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: wrap;
+    row-gap: 50px;
+    margin-top: 30px;
+
+    .contact-mail,
+    .contact-discord {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-mail {
+        span {
+            cursor: pointer;
+        }
+    }
+
+    .contact-discord  {
+        >.btn {
+            padding: .8rem 3rem;
+
+            &:hover {
+                color: #78bec6;
+            }
+        }
+    }
+
+    svg{
+        font-size: 5rem;
+        margin-bottom: 10px;
+    }
+}

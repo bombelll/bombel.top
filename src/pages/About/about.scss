@@ -1,0 +1,99 @@
+@import "../../scss/vars.scss";
+
+.aboutme {
+  margin-top: 150px;
+
+  &__title,
+  &__subtitle {
+    text-align: center;
+  }
+
+  &__subtitle {
+    text-transform: uppercase;
+  }
+
+  &__title {
+    margin-bottom: 50px;
+    color: $primaryColor;
+
+    @media only screen and (min-width: $breakpoint-mobile) {
+      font-size: 4rem;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    max-width: $maxWidth;
+    margin: $margin;
+    padding: $padding;
+
+    @media only screen and (min-width: 1400px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .aboutme__image {
+      max-width: 250px;
+      width: 100%;
+
+      > img {
+        border-radius: 25px;
+      }
+    }
+  }
+}
+
+.aboutme__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 30px;
+
+  .aboutme__cards {
+    display: flex;
+    flex-flow: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    .aboutme-card {
+      width: 190px !important;
+      height: 125px !important;
+      background-color: #eee;
+      border: 1px solid transparent;
+      border-radius: 1rem;
+      padding: 2rem;
+      text-align: center;
+      cursor: pointer;
+
+      > svg {
+        font-size: 2.5rem;
+      }
+
+      > h3 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+
+      > span {
+        font-size: 1.5rem;
+      }
+
+      &:hover {
+        background: transparent;
+        border: 1px solid $primaryColor;
+      }
+    }
+  }
+
+  .aboutme__text {
+    max-width: 75%;
+  }
+}

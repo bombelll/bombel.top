@@ -1,6 +1,19 @@
-@import "./partials/fonts.scss";
+$primaryColor: #548eeb;
+$primaryColorHover: #4072c4;
+$colorBlack: #121a26;
+$colorHTML: rgb(255, 87, 51);
+$colorCSS3: rgb(38, 77, 228);
+$colorSCSS: rgb(208, 100, 156);
+$colorJS: rgb(240, 219, 79);
 
 $fontRegular: Montserrat, sans-serif;
+$fontFooter:  Quicksand, sans-serif;
+$font404: 'Roboto Mono', monospace, sans-serif;
 
-$colorBlack: #000;
-$colorWhite: #fff;
+$maxWidth: 1400px;
+$padding: 2rem;
+$margin: 0 auto;
+
+$breakpoint-mobile: 375px;
+$breakpoint-tablet: 768px;
+$breakpoint-laptop: 1024px;

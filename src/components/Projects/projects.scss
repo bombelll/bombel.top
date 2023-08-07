@@ -1,0 +1,129 @@
+@import "../../scss/vars.scss";
+
+.projects{
+    margin-top: 100px;
+
+    &__wrapper {
+        max-width: 1700px;
+        margin: $margin;
+        padding: $padding;
+
+        .projects__title {
+            text-align: center;
+            color: $primaryColor;
+            margin-bottom: 100px;
+
+            >h2 {
+                @media only screen and (min-width: $breakpoint-mobile) {
+                    font-size: 4rem;
+                }
+            }
+        }
+
+        .projects__buttons {
+            margin-top: 100px;
+            text-align: center;
+
+            > a > svg{
+                margin-left: 5px;
+            }
+        }
+
+        .projects__boxes{
+            display: grid;
+            justify-items: center;
+            grid-template-columns: 1fr;
+            grid-gap: 30px;
+
+            @media only screen and (min-width: 1260px){
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
+}
+
+.project-box {
+    display: block;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 800px;
+    height: none;
+    width: 100%;
+    background-color: #f8f8f8;
+    box-shadow: 8px 8px 24px -9px rgba(66, 68, 90, 1);
+
+    &__image {
+        margin-bottom: 10px;
+
+        img {
+            border-radius: 5px;
+        }
+    }
+    @media only screen and (min-width: 655px) {
+        display: flex;
+        height: 280px;
+
+        &__image{
+            margin-bottom: 0px;
+            max-width: 1000px;
+            width: 100%;
+        }
+    }
+
+    &:nth-child(2) {
+        .project-box__content>.project-box__info>.language {
+            background-color: $colorHTML;
+        }
+    }
+
+    &:nth-child(3) {
+        .project-box__content>.project-box__info>.language {
+            background-color: $colorJS;
+        }
+    }
+
+    &:nth-child(4) {
+        .project-box__content>.project-box__info>.language {
+            background-color: $colorJS;
+        }
+    }
+}
+
+.project-box__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+
+    .project-box__title {
+        font-size: 25px;
+        color: $primaryColor;
+        margin-bottom: 10px;
+    }
+
+    .project-box__info {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 10px;
+
+        .language {
+            height: 11px;
+            width: 11px;
+            border: 2px solid #b6b6b6;
+            border-radius: 999px;
+            background-color: $colorJS;
+        }
+    }
+
+    .project-box__description {
+        flex: 1;
+        margin-bottom: 10px;
+    }
+
+    .project-box__buttons{
+        display: flex;
+        gap: 10px;
+    }
+}

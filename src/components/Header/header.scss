@@ -1,0 +1,19 @@
+@import "../../scss/vars.scss";
+
+.main-header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: $maxWidth;
+    padding: 3rem $padding;
+    margin: $margin;
+    font-size: 1.7rem;
+
+    .main-header__logo {
+        z-index: 101;
+        
+        a>h2>span {
+            color: $primaryColor;
+        }
+    }
+}

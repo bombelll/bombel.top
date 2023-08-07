@@ -1,0 +1,29 @@
+@import "../../scss/vars.scss";
+
+.backToTop {
+    display: none;
+
+    > button {
+        position: fixed;
+        bottom: 30px;
+        right: 20px;
+        font-size: 20px;
+        background-color: $primaryColor;
+        border-radius: 999px;
+        padding: 10px;
+        width: 40px;
+        height: 40px;
+
+        > svg {
+            color: #fff;
+        }
+
+        &:hover {
+            background-color: $primaryColorHover;
+        }
+    }
+
+    @media only screen and (min-width: $breakpoint-laptop) {
+        display: block;
+    }
+}
