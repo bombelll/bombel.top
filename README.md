@@ -1,32 +1,32 @@
-# React + Vite
+# bombel.top
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+First personal portfolio made with React.js!
 
-Currently, two official plugins are available:
+## Usage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Getting Started with Vite
-
-#### Clone Repository
+Clone Repository
 ```console
 git clone https://github.com/bombelll/bombel.top
 ```
 
-#### Install Node Package
+Install Node Package
 ```console
 npm i
 ```
 
-#### Run App
+Run Server
 ```console
 npm run dev
 ```
 
-## Skills used
-<p>
-    <img src="https://img.shields.io/badge/-React-45b8d8?style=for-the-badge&logo=react&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Sass-d0649c?style=for-the-badge&logo=sass&logoColor=white" />
+## Tech Stack
 
-</p>
+![My Skills](https://skillicons.dev/icons?i=react,scss)
+
+## License
+
+This project is licensed under [MIT](https://opensource.org/licenses/MIT) license.
+
+## Contact
+
+If you have noticed any error on the website or you just want to contact me, write to: bombel.top@gmail.com
