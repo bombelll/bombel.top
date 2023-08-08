@@ -29,4 +29,4 @@ This project is licensed under [MIT](https://opensource.org/licenses/MIT) licens
 
 ## Contact
 
-If you have noticed any error on the website or you just want to contact me, write to: bombel.top@gmail.com
+If you saw any error on website or you just want to reach me, write to: bombel.top@gmail.com
