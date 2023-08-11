@@ -54,8 +54,8 @@ const Skills = () => {
         <div className="skills__boxes">
           <Slider {...settings}>
             {skillsData.map((data) => (
-              <div className="skills-boxes">
-                <SkillsBox key={data.id} data={data} />
+              <div className="skills-box"  key={data.id}>
+                <SkillsBox data={data} />
               </div>
             ))}
           </Slider>
