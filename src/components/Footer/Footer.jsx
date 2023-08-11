@@ -31,9 +31,6 @@ const Footer = () => {
           <Link to="/about" reloadDocument>
             <span>more</span>
           </Link>
-          <Link to="/NotFound">
-            <span>404</span>
-          </Link>
         </div>
         <div className="main-footer__socials">
           <Link to="https://github.com/bombelll" target="_blank">
