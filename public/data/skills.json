@@ -1,30 +1,36 @@
 [
     {
+        "id": 1,
         "icon": "https://img.icons8.com/color/48/null/html-5--v1.png",
         "language": "HTML",
         "skill": "Good"
     },
     {
+        "id": 2,
         "icon": "https://img.icons8.com/color/48/null/css3.png",
         "language": "CSS",
         "skill": "Good"
     },    
     {
+        "id": 3,
         "icon": "https://img.icons8.com/color/48/null/sass.png",
         "language": "Saas",
         "skill": "Junior"
     },    
     {
+        "id": 4,
         "icon": "https://img.icons8.com/color/48/null/javascript--v1.png",
         "language": "JavaScript",
         "skill": "Junior"
     },    
     {
+        "id": 5,
         "icon": "https://img.icons8.com/color/48/null/react-native.png",
         "language": "ReactJS",
         "skill": "Beginner"
     },    
     {
+        "id": 6,
         "icon": "/images/about_subpage/cpp.png",
         "language": "C++",
         "skill": "Beginner"

@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "image": "/images/projects/portfolio-project.png",
         "title": "Portfolio",
         "language": "JavaScript",
@@ -8,6 +9,7 @@
         "githubURL": "https://github.com/bombelll/bombel.top"
     },
     {
+        "id": 2,
         "image": "/images/projects/old-portfolio-project.png",
         "title": "Old Portfolio",
         "language": "HTML",
@@ -16,6 +18,7 @@
         "githubURL": "https://github.com/bombelll/old-portfolio"
     },
     {
+        "id": 3,
         "image": "/images/projects/form-project.png",
         "title": "Form",
         "language": "JavaScript",
@@ -24,6 +27,7 @@
         "githubURL": "https://github.com/bombelll/register-form"
     },
     {
+        "id": 4,
         "image": "/images/projects/guess-the-number-project.png",
         "title": "Guess The Number",
         "language": "JavaScript",

@@ -1,15 +1,18 @@
 [
     {
+        "id": 1,
         "icon": "/images/about_subpage/web.png",
         "title": "Web Applications",
         "description": "I provide fast and best work done in my power"
     },
     {
+        "id": 2,
         "icon": "/images/about_subpage/communication.png",
         "title": "Communication",
         "description": "You won't have to wait long for an answer from me!"
     },
     {
+        "id": 3,
         "icon": "/images/about_subpage/mood.png",
         "title": "Mood",
         "description": "Relaxed atmosphere at work is a priority"
