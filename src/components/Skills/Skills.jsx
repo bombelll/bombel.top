@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import SkillsBox from "../SkillsBox/SkillsBox";
 import skillsData from "../../../public/data/skills.json";
 
 import "./skills.scss";
@@ -52,27 +53,9 @@ const Skills = () => {
         <h1 className="text--large skills__title">My Skills</h1>
         <div className="skills__boxes">
           <Slider {...settings}>
-            {skillsData.map((element, index) => (
-              <div className="skills-box" key={index}>
-                <div className="skills-box">
-                  <div className="skills-box__image">
-                    <img
-                      src={element.icon}
-                      alt="language icon"
-                      draggable="false"
-                    />
-                  </div>
-                  <h2>{element.language}</h2>
-                  <div className="skills-box__skill">
-                    {element.skill === "Good" ? (
-                      <span style={{ color: "#d0649c" }}>{element.skill}</span>
-                    ) : element.skill === "Junior" ? (
-                      <span style={{ color: "#e26537" }}>{element.skill}</span>
-                    ) : (
-                      <span style={{ color: "#45dd70" }}>{element.skill}</span>
-                    )}
-                  </div>
-                </div>
+            {skillsData.map((data) => (
+              <div className="skills-boxes">
+                <SkillsBox key={data.id} data={data} />
               </div>
             ))}
           </Slider>
