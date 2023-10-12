@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>
       <Toaster />
-      <Alert />
+      {/* <Alert /> */}
       <General />
       <About />
       <Projects />
